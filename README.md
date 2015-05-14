@@ -23,17 +23,6 @@ Please don't contact me by email for support. The right place to get support is 
 [Croppic Issues](https://github.com/sconsult/croppic/issues) 
 
 
-
-
-
-##NodeJS
-
-- Install nodejs - https://nodejs.org/
-- Download and install GraphicsMagick or ImageMagick.
-- Go to project folder, Execute npm install
-- Execute node server.js
-- Try localhost:8080 - http://localhost:8080
-
 MIT LICENCE
 -----------
 
