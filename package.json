@@ -4,8 +4,9 @@
   "description": "Croppic App",
   "dependencies": {
     "body-parser": "^1.12.2",
-    "express": "*",
-    "multer": "^0.1.8",
-    "simple-oauth2": "git://github.com/netroy/image-size.git#master"
+    "express": "^4.12.3",
+    "gm": "^1.17.0",
+    "image-size": "^0.3.5",
+    "multer": "^0.1.8"
   }
 }
