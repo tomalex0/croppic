@@ -557,7 +557,7 @@
 					"dummyData":1,
 					"dummyData2":"asdas"
 				},
-				cropUrl:'/crop-file',
+				cropUrl:'img_crop_to_file.php',
 				customUploadButtonId:'cropContainerHeaderButton',
 				modal:false,
 				processInline:true,
@@ -574,8 +574,8 @@
 		
 		
 		var croppicContainerModalOptions = {
-				uploadUrl:'save-file',
-				cropUrl:'/crop-file',
+				uploadUrl:'img_save_to_file.php',
+				cropUrl:'img_crop_to_file.php',
 				modal:true,
 				imgEyecandyOpacity:0.4,
 				loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> '
@@ -584,8 +584,8 @@
 		
 		
 		var croppicContaineroutputOptions = {
-				uploadUrl:'save-file',
-				cropUrl:'/crop-file',
+				uploadUrl:'img_save_to_file.php',
+				cropUrl:'img_crop_to_file.php', 
 				outputUrlId:'cropOutput',
 				modal:false,
 				loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> '
@@ -593,16 +593,16 @@
 		var cropContaineroutput = new Croppic('cropContaineroutput', croppicContaineroutputOptions);
 		
 		var croppicContainerEyecandyOptions = {
-				uploadUrl:'save-file',
-				cropUrl:'/crop-file',
+				uploadUrl:'img_save_to_file.php',
+				cropUrl:'img_crop_to_file.php',
 				imgEyecandy:false,				
 				loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> '
 		}
 		var cropContainerEyecandy = new Croppic('cropContainerEyecandy', croppicContainerEyecandyOptions);
 		
 		var croppicContaineroutputMinimal = {
-				uploadUrl:'save-file',
-				cropUrl:'/crop-file',
+				uploadUrl:'img_save_to_file.php',
+				cropUrl:'img_crop_to_file.php', 
 				modal:false,
 				doubleZoomControls:false,
 			    rotateControls: false,
@@ -611,8 +611,8 @@
 		var cropContaineroutput = new Croppic('cropContainerMinimal', croppicContaineroutputMinimal);
 		
 		var croppicContainerPreloadOptions = {
-				uploadUrl:'save-file',
-				cropUrl:'/crop-file',
+				uploadUrl:'img_save_to_file.php',
+				cropUrl:'img_crop_to_file.php',
 				loadPicture:'assets/img/night.jpg',
 				enableMousescroll:true,
 				loaderHtml:'<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> '
