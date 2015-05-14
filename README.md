@@ -7,6 +7,17 @@ Currently in works:
 - Mobile Support
 - Backwards compatibility for older Browsers.
 
+
+
+
+##NodeJS
+
+- Install nodejs - https://nodejs.org/
+- Download and install GraphicsMagick or ImageMagick.
+- Go to project folder, Execute npm install
+- Execute node server.js
+- Try localhost:8080 - http://localhost:8080
+
 MIT LICENCE
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
