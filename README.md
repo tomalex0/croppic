@@ -16,6 +16,25 @@ Croppic works in most major browsers (yes, now even in IE9):
 - **Chrome 14+**: Works!
 - **Opera 15+**: Works!
 
+NodeJS
+---------------------
+
+- Install nodejs - https://nodejs.org/
+- Download and install GraphicsMagick or ImageMagick.
+- Go to project folder, Execute npm install
+- Execute node server.js
+- Try localhost:8080 - http://localhost:8080
+
+Croppic works in most major browsers (yes, now even in IE9):
+
+- **IE8**: Untested
+- **IE9**: Works!
+- **IE10+**: Works!
+- **Safari 4+**: Works!
+- **Firefox 3+**: Works!
+- **Chrome 14+**: Works!
+- **Opera 15+**: Works!
+
 Support
 -------
 
