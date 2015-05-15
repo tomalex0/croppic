@@ -75,9 +75,7 @@ app.post("/img_save_to_file",function(req, res, next){
                     message:"Can`t write uploaded File"
                 });
             }
-            if ((imagePath).indexOf('/') === 0){
-                imagePath = (imagePath).substring(1);
-            }
+
 
             var response = {
                 status:"success",
