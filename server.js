@@ -78,14 +78,14 @@ app.post("/img_save_to_file",function(req, res, next){
             if ((imagePath).indexOf('/') === 0){
                 imagePath = (imagePath).substring(1);
             }
-            console.log(imagePath,'imagePath');
+
             var response = {
                 status:"success",
                 url:imagePath,
                 width:dimensions.width,
                 height:dimensions.height
             };
-            console.log(response,'response');
+            res.setHeader('content-type', 'text/html');
             res.json(response);
         });
     });
